@@ -13,17 +13,38 @@
             <div class="navigation">
                 <a href="#projet" class="bouton">Projet</a>
                 <a href="#stage" class="bouton">Stage</a>
+                <a href="#contact" class="bouton">Contact</a>
             </div>
     </header>
-    <h3>Etienne Le Breton</h3>
-    <img src="image/moi.jpg" height="200" width="160" align="center" />
-    <p><h3>Bienvenue, vous êtes sur mon portfolio, </h3></p>
+    <p><h3>Bienvenue, vous êtes sur le Portfolio, d'Etienne Le Breton </h3></p>
+    <img class="imageMoi" src="image/moi.jpg"/>
     <details id="projet"><summary>Projet</summary>
         <p>salut ici c'est mes projet</p>
     </details>
     <details id="stage"><summary>Stage</summary>
         <p>salut ici c'est les recap de stage</p>
     </details>
+
+        <div id="after_submit"></div>
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    <div class="row">
+        <label class="required" for="name">Your name:</label><br />
+        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+        <span id="name_validation" class="error_message"></span>
+    </div>
+    <div class="row">
+        <label class="required" for="email">Your email:</label><br />
+        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+        <span id="email_validation" class="error_message"></span>
+    </div>
+    <div class="row">
+        <label class="required" for="message">Your message:</label><br />
+        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+        <span id="message_validation" class="error_message"></span>
+    </div>
+    
+        <input id="submit_button" type="submit" value="envoyer" />
+    </form>
     <footer><a href="https://github.com/Daemon-laplace">GITHUB</a></footer>
 </body>
 </html>
