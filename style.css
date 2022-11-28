@@ -5,6 +5,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 a {
     all: unset;
     cursor: pointer;    
@@ -80,11 +81,6 @@ header {
     right: 200px;
 }
 
-.festival {
-    width: 600px;
-    height: 300px;
-}
-
 .presentation{
     width: 75em;
     height:auto;
@@ -92,4 +88,45 @@ header {
     font-size:large;
 }
 
-details{}
+
+
+.festival {
+   
+
+    margin-left: 30px;
+}
+
+.festival img {
+    width: 450px;
+    padding: auto;
+}
+
+/* Style Formulaire contact */
+
+form {
+    width: 500px;
+    height: 300px;
+
+    background-color: rgb(189, 189, 189);
+
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form p {
+    margin-bottom: 10px;
+}
+
+form .row {
+    width: 90%;
+}
+
+
+
+textarea {
+    resize: none;
+}
