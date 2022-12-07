@@ -13,6 +13,7 @@
             <div class="navigation">
                 <a href="#projet" class="bouton">Projet</a>
                 <a href="#stage" class="bouton">Stage</a>
+                <a href="#veille" class="bouton">Veille</a>
                 <a href="#contact" class="bouton">Contact</a>
             </div>
     </header>
@@ -20,20 +21,37 @@
     <br/>
     <p class="presentation">Bienvenue, vous êtes sur le Portfolio, d'Etienne Le Breton</p>
     <br/>
-    <details id="projet"><summary>Projet</summary>
-        <div class="festival" >
+
+    <details id="projet"><summary>Mes Projets</summary>
+        <div>
             <br/>
-            <p>Cliquez sur l'image pour voir mon projet Festival !</p>
+            <h4>Festival</h4>
             <br/>
-        <a href="https://github.com/hwrzn/FESTIVAL"> <img src="image/projet1.png" /> </a>
+            <a href="https://github.com/hwrzn/FESTIVAL"> <img src="image/projet1.png" /> </a>
+            <br/>
+            <h4>Festival</h4>
+            <br/>
+            <a href="https://github.com/hwrzn/FESTIVAL"> <img src="image/projet1.png" /> </a>
         </div>
     </details>
-    <br/>
-    <details id="stage"><summary>Stage</summary>
+
+    <details id="stage"><summary>Mes Stages</summary>
+        <div>
         <br/>
         <p>salut ici c'est les recap de stage</p>
         <br/>
+        </div>
     </details>
+
+
+    <details id="veille"><summary>Ma Veille</summary>
+        <div>
+        <br/>
+        <p>salut ici c'est ma veille</p>
+        <br/>
+        </div>
+    </details>
+
     <br/>
     <div id="after_submit"></div>
 
@@ -41,7 +59,7 @@
         <p>Me contacter</p>
       <div class="row">
         <label class="required" for="email">Votre email:</label><br />
-        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+        <input id="email" class="input" name="email" type="text" value="" /><br />
         <span id="email_validation" class="error_message"></span>
       </div>
       <div class="row">
@@ -50,7 +68,7 @@
         <span id="message_validation" class="error_message"></span>
       </div>
         
-        <input id="submit_button" type="submit" value="Envoyer" />
+        <input id="submit_button" class="input" type="submit" value="Envoyer" />
         <br/>
         <br/>
     </form>
