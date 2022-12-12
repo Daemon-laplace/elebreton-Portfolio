@@ -74,12 +74,12 @@ header {
 }
 
 .imageMoi {
-    width: 15em;
-    height: 20em;
+    width: 20em;
+    height: 25em;
 
     margin-top: 4em;
     position: absolute;
-    right: 8em;
+    right: 4em;
 }
 
 .presentation {
@@ -95,23 +95,22 @@ header {
     width: 65%;
     height:auto;
 
+    margin-bottom: 24em;
 }
 
 details {
-    font: 16px "Open Sans", "Arial", sans-serif;
-    width: 600px;
+    width: 80%;
     height: auto;
-
-
-
+    
+    font: 16px "Open Sans", "Arial", sans-serif;
   }
   
   details > summary {
     border: white solid 2px;
     border-radius: 5px;
 
-    margin: 20px 0px;
-    font-size: large;
+    margin: 40px 0px;
+    font-size: x-large;
   }
 
 
@@ -131,6 +130,7 @@ form {
     width: 500px;
     height: 300px;
 
+    margin-top: 20em;
     margin-left: 30px;
     display: flex;
     flex-direction: column;
