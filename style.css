@@ -118,11 +118,17 @@ details div {
     margin-left: 30px;
 }
 
-details a img {
+.img_prj {
     width: 450px;
     padding: auto;
 
 }
+
+.img_prj:hover {
+    opacity: 50%;
+    transition: .5s ease;
+}
+
 
 /* Style Formulaire contact */
 
