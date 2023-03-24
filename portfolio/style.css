@@ -87,11 +87,51 @@ nav a h2:hover {
     width: 200px;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
     border-radius: 4%;
+}
+
+.presentation {
+    text-align: center;
+}
+
+.skill-title {
+    margin-bottom: 10em;
+    text-align: center;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+}
+
+.icon {
+    width: 12%;
+    height: auto;
+    margin-right: 2em;
+}
+
+.part-title {
+    width: 96%;
+    height: auto;
+    margin-left: 1em;
+    border-bottom: 2px solid black;
+}
+
+.projet-text {
+    margin-left: 2em;
+}
+
+.img_prj {
+    width: 450px;
+    padding: auto;
+    border-radius: 4%;
+
+}
+
+.img_prj:hover {
+    opacity: 50%;
+    transition: 0.5s ease;
 }
 
 .btn-remonte {
