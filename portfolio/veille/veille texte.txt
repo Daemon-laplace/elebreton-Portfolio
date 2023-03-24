@@ -1,0 +1,12 @@
+pour ma veille technologique j'utilise l'agrégateur de flux rss "Feedly" qui permet de facilement les créer, gérer et consulter.
+qu'est ce q'un flux RSS, venant de l'anglais "really simple syndication" pour "syndication vraiment simple " en français
+La lecture d'un flux RSS se fait à l'aide d'un logiciel agrégateur. 
+Il faut lui amener l'adresse du fil RSS désiré, afin que l'agrégateur se connecte au site émetteur, afin de vérifier la présence de nouveau contenu. 
+Si c'est le cas, le flux RSS est téléchargé et converti immédiatement au format HTML pour en permettre la lecture.
+Le principal avantage de cette technologie est de permettre de suivre facilement un flux d'informations (par exemple les nouveaux articles d'un site Web d'actualités) sans avoir la nécessité de s'y rendre manuellement à l'aide d'un navigateur web. 
+Ainsi on s'épargne le temps de lancement du logiciel navigateur web, et le temps nécessaire au téléchargement et à l'affichage des images de la page Web d'origine.
+
+le sujet de ma veille est l'impression 3D.
+le principe de l'impression additive fût déposé le 16 Juillet 1984.
+les premieres imprimante 3D apparurent au début des années 2000.
+c'est une technologie à revolutionner et révolution encore de nombreux domaine comme la medecine (impression bio-cellulaire ou de médicameent)....
