@@ -23,14 +23,16 @@
     <div class="main">
         <div class="bandeau">
             <div class="bandeau-moi">
-                <img src="moi.png" alt="" class="img-moi">
+                <div class="img-moi2">
+                    <img src="moi.png" alt="" class="img-moi">
+                </div>
                 <h3>Qui suis-je ?</h3>
                 <h3>Etienne Le Breton</h3>
             </div>
         </div>
         
         <div>  
-            <p class="presentation">Je suis actuellement en 2 ème année de BTS SIO SLAM au lycée Charles de Foucault.
+            <p class="presentation">Je suis actuellement en 2 ème année de BTS SIO SLAM au lycée Charles de Foucauld.
             <br>Pour ma poursuite d'étude je pense faire une licence générale informatique en alternance.
             </p>
         </div>
@@ -51,36 +53,62 @@
         <div class="block">
 
             <div id="projet"><h2 class="part-title" >PROJETS</h2></div>
-                <div class="projet-text">
+                <div class="text">
                     <h4>Personnel</h4>
                     <br/>
-                    <a href="https://github.com/Daemon-laplace/personnel"> <img class="img_prj img_prj:hover" src="personnel.png" /> </a>
+                    <div class="contener-projet">
+                        <a href="https://github.com/Daemon-laplace/personnel"> <img class="img_prj" src="personnel.png" /> </a>
+                        <div class="blockText">
+                            <div class="projet-text"> le projet Personnel est une application coder en Java en ligne de commande qui permet de gérer les employer des ligues de la Maison ded ligues de Lorraine (situation fictive) </div>
+                        </div>                        
+                    </div>
                     <br/>
                     <h4>Parking</h4>
                     <br/>
-                    <a href="https://github.com/Daemon-laplace/parking"> <img class="img_prj img_prj:hover" src="parking.jpg" /> </a>
+                    <div class="contener-projet">
+                        <a href="https://github.com/Daemon-laplace/parking"> <img class="img_prj img_prj:hover" src="parking.jpg" /> </a>
+                        <div class="blockText">
+                            <div class="projet-text">le projet Parking est un applcation web coder à l'aide du framework Laravel, c'est un site qui permet la gestion de compte utilisateur et de passer une réservation temporraire pour place de parking</div>
+                        </div>
+                    </div>
                 </div>
                 
 
             <div id="veille"><h2 class="part-title">VEILLE</h2></div>
-                <div class="projet-text">
-                    <h4>L'impression 3D</h4>
-                    <p>Point positif:
-                        <br>-automatisation de production 
-                        <br>-réduction des coûts et donc du prix 
-                        <br>-ecologiquement responsable
+                <div class="text">
+                    <img src="veille/logo-feedly.png" alt="" class="icon">
+                    <p>Pour ma veille technologique j'utilise l'agrégateur de flux rss "Feedly" qui permet de facilement les créer, gérer et consulter.
+                        qu'est ce q'un flux RSS, venant de l'anglais "really simple syndication" pour "syndication vraiment simple " en français
+                        La lecture d'un flux RSS se fait à l'aide d'un logiciel agrégateur. 
+                        Il faut lui amener l'adresse du fil RSS désiré, afin que l'agrégateur se connecte au site émetteur, afin de vérifier la présence de nouveau contenu. 
+                        Si c'est le cas, le flux RSS est téléchargé et converti immédiatement au format HTML pour en permettre la lecture.
+                        Le principal avantage de cette technologie est de permettre de suivre facilement un flux d'informations (par exemple les nouveaux articles d'un site Web d'actualités) sans avoir la nécessité de s'y rendre manuellement à l'aide d'un navigateur web. 
+                        Ainsi on s'épargne le temps de lancement du logiciel navigateur web, et le temps nécessaire au téléchargement et à l'affichage des images de la page Web d'origine.
+                        </p>
                         <br>
-                        <br>L'impression 3D est une révolution déja un peu ancienne pourtant elle ne cesse de rester une innovation de technologie.
+                        <p>le sujet de ma veille est l'impression 3D.
+                            le principe de l'impression additive fût déposé le 16 Juillet 1984.
+                            les premieres imprimante 3D apparurent au début des années 2000.
+                            c'est une technologie à revolutionner et révolution encore de nombreux domaine comme la medecine (impression bio-cellulaire ou de médicameent), l'architecture (impression avec du béton) ou encore l'alimentation (impression de viande)
+                  
+                            L'impression 3D est une révolution déja un peu ancienne pourtant elle ne cesse de rester une innovation de technologie.
                             les plus connues sont les imprimantes à filament et à résine car tombé depuis quelques année dans le domaine publiques.
                             Pour celles à filament le principe est simple un filament de plastique est fondu et déposé couche par couche pour former un objet.
                             Avec la resine le principe reste du couche par couche mais l'objet est formé grâce à la solidification de la résine par une lumière UV dans un bac de résine liquide.
                     </p>
-                    <br/>
+                    <div><a href="https://feedly.com/i/entry/rZRWeS1ARkD6IFsfgwAsR0bG+Cb2zHZ6ey1m/TU7sGQ=_18711ccec1e:32edd37:eca0ac4">Understanding Use Of 3-D Printing in Shipping</a>
+                        <a href="https://3dprint.com/298917/3d-printing-news-unpeeled-metal-3d-printing-pen-shell-wall-3d-printing/">3D Printing News Unpeeled: Metal 3D Printing Pen, Shell Wall 3D Printing</a>/div>
                 </div>        
 
             <div id="stage"><h2 class="part-title">STAGE</h2></div>
 
-            <div id="contact"><h2 class="part-title">CONTACT</h2></div>
+            <div id="contact"><h2 class="part-title">CONTACT</h2>
+                <div class="cv-btn"><a href="cv.pdf" class="cv-btn2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 13.5l3 3m0 0l3-3m-3 3v-6m1.06-4.19l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z" />
+                    </svg>
+                  </a></div>
+                </div></div>
 
             <div><a href="#" class="btn-remonte">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -92,6 +120,8 @@
 
     </div>
 
-    <footer></footer>
+    <footer>
+        
+    </footer>
 </body>
 </html>

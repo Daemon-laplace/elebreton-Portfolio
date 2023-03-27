@@ -22,7 +22,7 @@ body {
 }
 
 .header {
-    background:grey;
+    background: grey;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -83,11 +83,16 @@ nav a h2:hover {
     margin: 0;
 }
 
+.img-moi2 {
+    opacity: 100%;
+}
+
 .img-moi {
-    width: 200px;
+    width: 12em;
     height: auto;
     display: block;
-    border-radius: 4%;
+    border-radius: 4%; 
+    
 }
 
 .presentation {
@@ -118,21 +123,59 @@ nav a h2:hover {
     border-bottom: 2px solid black;
 }
 
-.projet-text {
+.text {
     margin-left: 2em;
+    margin-right: 2em;
 }
 
 .img_prj {
-    width: 450px;
-    padding: auto;
-    border-radius: 4%;
-
+    width: 20em;
+    height: auto;
+    border-radius: 30px;
 }
+
 
 .img_prj:hover {
     opacity: 50%;
     transition: 0.5s ease;
 }
+
+.blockText{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:  black solid 2px;
+    border-radius: 30px;
+    margin-left: 30px;
+    padding: 30px;
+}
+
+.projet-text { 
+   
+    height: auto;
+    font-size: 20px;
+}
+
+.contener-projet {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.cv-btn {
+    
+}
+.cv-btn2 {
+    width: 5em;
+    height: auto;
+    color: black;
+}
+
+.cv-btn2:hover {
+    color: grey;
+ }
 
 .btn-remonte {
     width: 5%;
