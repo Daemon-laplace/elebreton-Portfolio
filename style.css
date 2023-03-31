@@ -95,6 +95,10 @@ nav a h2:hover {
     
 }
 
+.img-moi:hover {
+     opacity: 40%;
+}
+
 .presentation {
     text-align: center;
 }
@@ -114,6 +118,10 @@ nav a h2:hover {
     width: 12%;
     height: auto;
     margin-right: 2em;
+}
+
+.icon:hover {
+    opacity: 40%;
 }
 
 .part-title {
@@ -136,7 +144,7 @@ nav a h2:hover {
 
 
 .img_prj:hover {
-    opacity: 50%;
+    opacity: 40%;
     transition: 0.5s ease;
 }
 
@@ -164,18 +172,16 @@ nav a h2:hover {
     justify-content: left;
 }
 
-.cv-btn {
-    
-}
-.cv-btn2 {
-    width: 5em;
-    height: auto;
+.veille-lien {
     color: black;
+    border: 2px solid black;
+    border-radius: 30px;
 }
 
-.cv-btn2:hover {
+.veille-lien:hover {
     color: grey;
- }
+    border: 2px solid grey;
+}
 
 .btn-remonte {
     width: 5%;
