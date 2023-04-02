@@ -52,6 +52,7 @@ body {
     margin-top: 0.5em;
     margin-left: 0.5em;
     margin-bottom: 0;
+    cursor: pointer;
 }
 
 .header-nav {
@@ -193,6 +194,7 @@ nav a h2:hover {
 }
 
 .veille-lien {
+    
     padding: 20px;
     color: black;
     border: 2px solid black;
